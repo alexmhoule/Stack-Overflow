@@ -76,7 +76,7 @@ var showTop = function(topAnsewrers) {
 	// Get Profile Link
 
 	var profile = result.find('.profile-text');
-	profile.html('<p>Profile: <a target="_blank" href=http://stackoverflow.com/users/' + topAnsewrers.user.link + ' >'  + topAnsewrers.user.link + '</a></p>');
+	profile.html('<p>Profile: <a target="_blank" href=http://stackoverflow.com/users/' + topAnsewrers.user.user_id + ' >'  + topAnsewrers.user.link + '</a></p>');
 
 	return result;
 
